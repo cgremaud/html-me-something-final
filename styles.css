@@ -19,7 +19,16 @@ body {
     font-size: 24px;
 }
 
-#text-container{
-    background-color: white;
-    margin: 10%;
+#dark-mode-select{
+  
+}
+
+#main-text {
+    background-color: black;
+    color: white;
+    align-content:center;
+    margin-left: 32px;
+    margin-right: 32px;
+    padding: 20px;
+
 }
