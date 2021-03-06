@@ -1,15 +1,45 @@
-p {
-    color: pink; 
-}
+
 body {
     background-color: grey;
     font-family: 'Courier New', Courier, monospace;
 }
 
-#textContainer{
-    background-color: white;
-    margin: 10%;
+#title-bar{
+    text-align: center;
+    background-color: black;
+    color: white;  
+    padding:20px;
 }
-#radioLog {
-    color: pink;
+
+#nav-bar{
+    text-align: center;
+    padding: 20px;
+    font-size: 24px;
+}
+
+/* #dark-mode-select{
+  
+} */
+
+#main-text {
+    background-color: black;
+    color: white;
+    align-content:center;
+    margin-left: 48px;
+    margin-right: 48px;
+    padding: 20px;
+
+}
+
+.text-container{
+    color: white;
+
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    text-align: center;
 }
