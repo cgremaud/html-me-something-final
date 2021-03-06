@@ -1,0 +1,15 @@
+p {
+    color: pink; 
+}
+body {
+    background-color: grey;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#textContainer{
+    background-color: white;
+    margin: 10%;
+}
+#radioLog {
+    color: pink;
+}
