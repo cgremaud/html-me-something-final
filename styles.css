@@ -17,22 +17,15 @@ body {
     font-size: 20px;
 }
 
-/* #dark-mode-select{
-  
-} */
-
 #main-text {
     background-color: black;
     color: white;
     margin-left: auto;
     margin-right: auto;
     width: 75%;
-    padding: 24px;
+    padding: 32px;
 }
 
-#image{
-    align-items: center;
-}
 
 h1 {
     font-size: 36px;
