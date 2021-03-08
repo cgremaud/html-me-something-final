@@ -1,10 +1,15 @@
 window.addEventListener("load", () =>{
+
     let modeSwitchButton = document.getElementById("dark-mode-select")
     let darkModeOn = true 
     let mainTxtBkgrd = document.getElementById("main-text")
     let navBar =document.getElementById("title-bar")
-    modeSwitchButton.addEventListener("click", () =>{
-        let confirm = window.confirm("Are you sure you want to switch?")
+    let confirm 
+
+    modeSwitchButton.addEventListener("click", () => {
+
+        confirm = window.confirm("Are you sure you want to switch?")
+
         if (darkModeOn && confirm){
             darkModeOn = false
             modeSwitchButton.innerHTML = "Click to activate dark mode"
@@ -12,6 +17,7 @@ window.addEventListener("load", () =>{
             mainTxtBkgrd.style.color = "black"
             navBar.style.backgroundColor = "white"
             navBar.style.color = "black"
+
         } else if (!darkModeOn && confirm) {
             darkModeOn = true
             modeSwitchButton.innerHTML = "Click to activate light mode"
