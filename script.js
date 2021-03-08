@@ -17,7 +17,6 @@ window.addEventListener("load", () =>{
             mainTxtBkgrd.style.color = "black"
             navBar.style.backgroundColor = "white"
             navBar.style.color = "black"
-
         } else if (!darkModeOn && confirm) {
             darkModeOn = true
             modeSwitchButton.innerHTML = "Click to activate light mode"
