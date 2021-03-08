@@ -1,8 +1,27 @@
+/* element selectors */
 
 body {
     background-color: grey;
     font-family: 'Courier New', Courier, monospace;
 }
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    text-align: center;
+}
+
+a:link{
+    color: white;
+}
+
+a:visited{
+    color: grey;
+}
+
+/* id selectors */
 
 #title-bar{
     text-align: center;
@@ -26,22 +45,7 @@ body {
     padding: 32px;
 }
 
-
-h1 {
-    font-size: 36px;
-}
-
-h2 {
-    text-align: center;
-}
-
-a:link{
-    color: white;
-}
-
-a:visited{
-    color: grey;
-}
+/* class selectors  */
 
 .center {
     display: block;
