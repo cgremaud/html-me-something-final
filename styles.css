@@ -13,9 +13,7 @@ h2 {
     text-align: center;
 }
 
-#blah {
-    color:black;
-}
+
 /* this breaks the light/dark mode switch so I will fix that later by giving them ids/or use querySelectorAll or something?  
 a:link{
     color: white;
